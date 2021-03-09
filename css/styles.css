@@ -65,7 +65,8 @@ nav.nav li a {
 .talent {
     display: flex;
     justify-content: space-evenly;
-    margin: 75px;
+    margin-right: 5px;
+    margin-top: 25px;
 }
 
 .talent-item {
@@ -81,7 +82,7 @@ nav.nav li a {
 
 .talent-details {
     font-weight: 600;
-    width: 150px;
+    width: 100px;
     text-align: center;
 }
 
