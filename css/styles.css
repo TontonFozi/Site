@@ -22,7 +22,7 @@ header.header {
 }
 
 header.header img {
-    width: 150px;
+    width: 75px;
 }
 
 section.top-page {
@@ -36,22 +36,14 @@ section.top-page {
 
 .landing-page {
     position: relative;
-    padding: 20px 50px;
 }
 
 .big-title {
     color: white;
-    font-size:  95px;
+    font-size:  55px;
     font-family: 'Abril FatFace', cursive;
-    font-weight: 100;
-    width: 60%;
-}
-
-.scroll-down {
-    color: white;
-    text-decoration: none;
-    position: absolute;
-    bottom: 0;
+    width: 100%;
+    margin-top: 100px;
 }
 
 /* menu de navigation */
@@ -60,13 +52,12 @@ nav.nav {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    width: 400px;
+    width: 300px;
     margin-left: 30px;
 }
 
 nav.nav li a {
     color: white;
-    text-decoration: none;
 }
 
 /* services */
@@ -74,7 +65,7 @@ nav.nav li a {
 .talent {
     display: flex;
     justify-content: space-evenly;
-    margin: 50px;
+    margin: 75px;
 }
 
 .talent-item {
@@ -84,13 +75,13 @@ nav.nav li a {
 }
 
 .delivery-icon {
-    font-size: 50px;
+    font-size: 45px;
     color: darkcyan;
 }
 
 .talent-details {
     font-weight: 600;
-    width: 200px;
+    width: 150px;
     text-align: center;
 }
 
@@ -99,7 +90,6 @@ nav.nav li a {
 .section-title {
     font-size: 50px;
     font-family: 'Abril FatFace', cursive;
-    font-weight: 100;
     position: relative;
 }
 
@@ -112,8 +102,12 @@ nav.nav li a {
     bottom: 0;
 }
 
+.script1 {
+    background-image: url(filtre1.png);
+}
+
 .bests-scripts {
-    margin: 100px;
+    margin: 15px;
 }
 
 .best-scripts {
@@ -125,43 +119,45 @@ nav.nav li a {
 
 .scripts-box {
     position: relative;
+    width: 350px;
     background-size: cover;
     background-position: center;
-    display: grid;
 }
 
 .no-grid {
-    min-width: 400px;
+    width: 500px;
     height: 150px;
     flex: 1;
 }
 
-.scripts1 {
-    background-image: url(filtre1.PNG);
-}
-
 .scripts-details {
     position: absolute;
-    width: 88%;
     bottom: 0;
     background-color: #FFDFFDFD;
-    padding: 5px 20px;
+    padding: 10px 20px;
 }
 
 .scripts-name {
+    color: black;
     font-size: 22px;
     font-weight: 600;
-    line-height: 2px;
+    line-height: 3px;
 }
 
 .scripts-desc {
     color: darkcyan;
-    line-height: 3px;
-    font-size: 9px;
+    line-height: 10px;
+    font-size: 11px;
     font-weight: 800;
 }
 
 /* Tout mes scripts */
+
+.section-title2 {
+    font-size: 25px;
+    font-family: 'Abril FatFace', cursive;
+    position: relative;
+}
 
 .all-scripts {
     margin: 100px;
